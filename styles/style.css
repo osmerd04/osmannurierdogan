@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    /* background-image: url("/Github Repositories/osmannurierdogan/Images/1.jpg"); */
+    
+    background-color: rgb(243, 233, 220);
+    background-size: cover;
+}
+.navigation-bar{
+    /* background-color: rgb(117, 34, 34); */
+    background-color: transparent;
+    width: 100%;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo-icon{
+    width: 187px;
+    height: 163px;
+    /* display: inline-block; */
+    float: left;
+    background-color: aqua;
+    background-image: url("/Github Repositories/osmannurierdogan/Images/Logo3.png");
+    margin: 1rem auto 1rem 3rem;
+    border-radius: 35px;
+}
+.navbar-links>li{
+    color: whitesmoke;
+    float: right;
+    font-size: 35px;
+    margin: 2rem 3rem 2rem auto;
+    padding: 2rem;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
