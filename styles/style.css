@@ -24,7 +24,7 @@ body{
     /* display: inline-block; */
     float: left;
     background-color: aqua;
-    background-image: url("/Github Repositories/osmannurierdogan/Images/Logo3.png");
+    background-image: url("../Images/Logo3.png");
     margin: 1rem auto 1rem 3rem;
     border-radius: 35px;
 }
