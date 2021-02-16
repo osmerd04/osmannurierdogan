@@ -8,4 +8,4 @@ const changeBackgroundImage = () => {
     randomImage = Math.floor(Math.random() * totalBackgrounds) + 1;
     document.getElementsByTagName('body')[0].background = "Images/" + randomImage + ".jpg";
 }
-setInterval(changeBackgroundImage, 2000);
+setInterval(changeBackgroundImage, 5000);
