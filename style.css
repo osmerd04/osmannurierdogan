@@ -1,0 +1,17 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.container{
+    position: relative;
+    text-align: center;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    height: 100vh;
+    
+}
