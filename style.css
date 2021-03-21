@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 
 *{
@@ -6,12 +7,67 @@
     padding: 0;
 }
 
-div.container{
-    position: relative;
-    text-align: center;
-    width: 100px;
-    background-color: red;
-    display: inline-block;
+body {
+    background-image: url('photo.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+div{
+    width: 100vw;
     height: 100vh;
-    
+}
+
+.content{
+    position: relative;
+    text-align: left;
+    width: max-content;
+    height: max-content;
+    left: 10%;
+    top: 20%;
+    font-size: 9rem;
+    display: block;
+}
+
+.content:hover{
+    margin-left: 4rem;
+    transition: 0.4s;
+}
+
+.content:nth-child(1):hover{
+    color: rgb(24, 81, 83);
+}
+
+.content:nth-child(2):hover, .content:nth-child(3):hover{
+    color: rgb(105, 69, 14);
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hello_about{
+    color: rgb(24, 81, 83);
+}
+
+.me_work, .name_contact{
+    color: rgb(105, 69, 14);
+}
+
+.hello_about:hover, .me_work:hover, .name_contact:hover{
+    padding-left: 1.5rem;
+}
+
+@media (max-width:946px){
+    .content{
+        position: relative;
+        top: 13%;
+    }
+    body {
+        background-image: url('profile.jpeg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
 }
