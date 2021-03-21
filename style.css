@@ -64,7 +64,8 @@ a{
     .content{
         position: relative;
         top: 13%;
-        font-size: 4rem;
+        left: 6%;
+        font-size: 5rem;
     }
     body {
         background-image: url('profile.jpeg');
