@@ -64,9 +64,22 @@ a{
     .content{
         position: relative;
         top: 13%;
+        font-size: 5rem;
     }
     body {
         background-image: url('profile.jpeg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width:1500px){
+    .content{
+        position: relative;
+        top: 13%;
+    }
+    body {
+        background-image: url('photo.jpeg');
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
